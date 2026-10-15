@@ -1,9 +1,9 @@
 [build.environment]
-  VITE_SOCKET_URL = "https://https://archlink-pakistan.onrender.com/"
+  VITE_SOCKET_URL = "https://archlink-pakistan.onrender.com/"
 
 [[redirects]]
   from = "/api/*"
-  to = "https://https://archlink-pakistan.onrender.com//api/:splat"
+  to = "https://archlink-pakistan.onrender.com//api/:splat"
   status = 200
   force = true
 

@@ -29,7 +29,10 @@ const { safepayWebhook } = require("./controllers/paymentController");
 const { authorizeSocketRequest } = require("./controllers/chatController");
 
 // Middleware
-app.use(cors());
+app.use(cors({
+  origin: "https://archlinkpakistan.netlify.app",
+  credentials: true,
+}));
 app.post("/api/payments/webhook", express.raw({ type: "application/json" }), safepayWebhook);
 app.use(express.json());
 

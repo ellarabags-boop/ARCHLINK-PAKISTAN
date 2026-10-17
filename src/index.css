@@ -16,12 +16,6 @@ button { cursor: pointer; }
 .navbar { width: 100%; background: #fff; border-bottom: 1px solid #e5e5e5; position: sticky; top: 0; z-index: 1000; }
 .navbar-container { max-width: 1200px; margin: 0 auto; padding: 18px 24px; display: flex; align-items: center; justify-content: space-between; gap: 20px; }
 
-.site-logo {
-  width: 150px;
-  height: 55px;
-  object-fit: contain;
-  display: block;
-}
 
 .nav-links { display: flex; align-items: center; gap: 22px; flex-wrap: wrap; }
 .nav-links a { text-decoration: none; color: #333; font-size: 15px; font-weight: 600; transition: .2s ease; }
